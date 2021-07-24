@@ -1,0 +1,43 @@
+.container-home{
+    position: relative;
+    height: 70vh;
+    width: auto;
+    padding: 20px 20px;
+    
+}
+
+.home-page-img{
+    opacity: .75;
+
+}
+
+.homebutton{
+    top: 40%;
+    left: 20%;
+    display: inline-block;
+    opacity: 1;
+}
+
+.slogan{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: xx-large;
+}
+
+.button-container{
+    position: absolute;
+    display: grid;
+    align-content: center;
+    width : 200px ;
+    height: 200px;
+    top: 50%;
+    left: 10%;
+}
+
+.calendar {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+
+}

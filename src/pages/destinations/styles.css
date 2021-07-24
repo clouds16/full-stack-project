@@ -1,0 +1,79 @@
+.dest-backdrop {
+    display: flex;
+}
+
+.section-destinations {
+    width: 70%;
+    height: auto;
+    overflow: scroll;
+}
+
+.section-hotlinks {
+   
+    width: 30%;
+    height : auto;
+
+    align-items: center;
+}
+
+.dest-container {
+    position: relative;
+    display : flex;
+    place-content: center;
+    left: 10%;
+    height: 25%;
+    width: 60%;
+    background-color: rgba(170, 149, 190, .50);
+    padding: 10px 10px;
+    margin: 20px ;
+    border-radius: 20px;
+}
+
+.summary {
+    padding: 10px 10px;
+    height: auto;
+    width: 60%;
+    background-color: rgba(255,255,255,.70);
+    overflow: hidden;
+    place-content: center;
+}
+
+
+.details {
+    padding: 10px 10px;
+    width: 20% ;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.image-section {
+    
+    width: 40%;
+    height: auto;
+    background-color: coral;
+    overflow: hidden;
+    object-fit: scale-down;
+}
+
+.destination-images {
+    height: 100px;
+    width: 100px;
+    object-fit: scale-down;
+}
+
+
+
+.container-popular {
+    margin: 20px 40px;
+    padding: 15px 15px;
+    display: grid;
+    align-content: center;
+    width: 80%;
+    height: 30%;
+    background-color: rgba(170, 149, 190, .50);
+    overflow: hidden;
+    border-radius: 25px;
+    align-content: center;
+}
+
