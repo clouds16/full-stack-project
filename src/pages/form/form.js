@@ -11,11 +11,6 @@ import '../../styles/styles.css'
 const Form = () => {
 
 
-    const handleSubmit = (event) => {
-		event.preventDefault();
-		alert("You have submitted the form.");
-	};
-
     
     return (
         

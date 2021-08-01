@@ -40,6 +40,36 @@ app.post("/contact", async (req, res) => {
 	}
 });
 
+
+app.get("/contact", async (req, res) => {
+	
+	let narrow = 'meli@gmail.com'
+	
+	try {
+		User.find({email : narrow}).then(tasks => {
+			res.send(tasks)
+			console.log(tasks)
+		})
+	} catch (e) {
+		console.log(e)
+	}
+})
+
+
+app.post("/login", async (req, res) => {
+	
+	console.log(req.body.email)
+
+	try {
+		User.find({email : req.body.email}).then(result => {
+			res.send(result)
+		})
+
+	}catch (e) {
+		res.send(408)
+	}
+})
+
 app.listen(port, () => {
-	console.log("Server up on port - lets see if it works" + port);
+	console.log("Server up on port: " + port);
 });
